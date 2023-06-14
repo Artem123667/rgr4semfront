@@ -1,0 +1,79 @@
+
+.buy-container{
+    margin-top: 80px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap: 84px;
+}
+.buy-plants{
+    margin-top: 10px;
+    &-text{
+        max-width: 522px;
+        padding-bottom: 74px;
+    }
+}
+.get-container{
+    margin-top: 177px;
+    margin-left: 185px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.get-shop{
+    display: flex;
+    flex-direction: column;
+    gap: 32px;
+    justify-content: center;
+    &-text h1{
+        font-size: 40px;
+    }
+    &-btn a{
+        padding: 10px 42px;
+        background-color: #156963;
+        color: white;
+    }
+}
+.foot-container{
+    margin-top: 80px;
+}
+.foot-container hr{
+    margin-bottom: 60px;
+    color: #156963;
+}
+.foot-plant{
+    display: flex;
+    justify-content: center;
+    gap: 80px;
+}
+.foot-box{
+    &-text{
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+    &-text p{
+        font-size: 14px;
+        font-weight: 400;
+    }
+    &-text a{
+        display: block;
+        padding: 4px 12px;
+        background-color: #156963;
+        color: white;
+        width: 60px;
+    }
+    &-text input{
+        border: 1px solid white;
+    }
+}
+.foot-box h3{
+    color: #156963;
+    font-size: 24px;
+    padding-bottom: 24px;
+}
+
+.foot-box h4{
+    font-size: 16px;
+    padding-bottom: 20px;
+}

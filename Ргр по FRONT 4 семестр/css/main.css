@@ -1,0 +1,203 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.header{
+    width: 1280px;
+    height: 1280px;
+    background-image: url(../img/pexels-cottonbro-45037511.png);
+    position: absolute;
+    background-repeat: no-repeat;
+    margin-left: 300px;
+    
+   
+}
+
+.container{
+    display: flex;
+   
+    align-items: center;
+    padding-top: 48px;
+}
+.logo{
+    margin-right: 777px;
+    padding-left: 56px;
+}
+.menu{
+    display: flex;
+    align-items: center;
+    list-style-type: none;
+}
+.menu li
+{
+    padding-left: 45px;
+}
+.menu li a
+{
+    text-decoration:none;
+
+}
+.button{
+    padding-left: 8px;
+}
+.btn{
+    padding: 8px 30px;
+    text-decoration: none;
+    color: #156963;
+
+}
+.btn1{
+    padding: 8px 30px;
+    background-color: #156963;
+    border: 1px solid #156963;
+    text-decoration: none;
+    color: white;
+
+}
+.aside{
+    padding-left: 685px;
+    padding-top: 118px;
+}
+.aside h1{
+    color:#156963 ;
+    font-size: 68px;
+    font-weight: 500;
+}
+.aside p{
+    color:black ;
+    font-size: 18px;
+    font-weight: 400;
+    width: 493px;
+    height: 96px;
+    padding-top: 24px;
+}
+.button1{
+    display: flex;
+    align-items: center;
+}
+.Kaktus-plant{
+    width: 320px;
+    height: 160px;
+}
+.Kaktus-plant p{
+    color:#156963 ;
+    font-size: 32px;
+    font-weight: 500;
+}
+.Kaktus-plant a{
+    text-decoration: none;
+    color:#a7a8aa ;
+    font-size: 24px;
+    font-weight: 500;
+}
+.Kaktus-plant1{
+    padding-top: 40px;
+    padding-left: 49px;
+}
+.Kaktus-plant p{
+    padding-left: 49px;
+    padding-top: 0px;
+}
+.Rahasia-Plant{
+    width: 320px;
+    height: 160px;
+    background-color: #156963;
+}
+.Rahasia-Plant p{
+    color:white ;
+    font-size: 32px;
+    font-weight: 500;
+}
+.Rahasia-Plant a{
+    text-decoration: none;
+    color:#a7a8aa ;
+    font-size: 24px;
+    font-weight: 500;
+    opacity: 0.8;
+}
+.Rahasia-Plant1{
+    padding-top: 40px;
+    padding-left: 49px;
+}
+.Rahasia-Plant p{
+    padding-left: 49px;
+    padding-top: 0px;
+}
+.wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 56px;
+    margin-top: 200px;
+
+}
+.g1{
+    width: 252px;
+    
+   padding: 21px 16px;
+   border: 1px solid#E0E0E0;
+   display: inline-block;
+}
+.g1 p{
+    font-size: 10px;
+    font-weight: 400;
+    line-height: 16px;
+}
+.wrap{
+    display: flex;
+    align-items: center;
+}
+.wrap p{
+    padding-left: 16px;
+    padding-bottom: 16px;
+    color:#156963 ;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 24px;
+
+}
+
+.section-featured{
+    margin-top: 80px;
+    margin-left: 56px;
+    margin-right: 16px;
+}
+.plats{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-bottom: 16px;
+}
+.plats p{
+    font-size: 20px;
+    font-weight: 500;
+}
+.first{
+    display: flex;
+    align-items: center;
+    padding: 12px 8px;
+    border: 1px solid
+    #E0E0E0;
+}
+.first p{
+    font-size: 12px;
+    font-weight: 500;
+    padding-right: 15px;
+}
+
+.kaktuts{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+}
+.katus{
+    display: flex;
+   justify-content: center;
+   align-items:center;
+   flex-direction: column;
+   gap: 5px;
+}
+.katus p{
+   font-weight: bold;
+}
